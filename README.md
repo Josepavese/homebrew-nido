@@ -1,7 +1,9 @@
-# Nido — Homebrew tap
+# Nido - Homebrew tap
 
-Homebrew tap for [Nido](https://github.com/Josepavese/nido): fast, local
-QEMU/KVM VM sandboxes for AI agents, with a native MCP server.
+Homebrew tap for [Nido](https://github.com/Josepavese/nido): a local VM manager for AI agents. Create, run and reuse QEMU virtual
+machines through the CLI, terminal dashboard or native MCP server.
+
+[Quickstart](https://github.com/Josepavese/nido#press-start) · [MCP guide](https://github.com/Josepavese/nido/blob/main/docs/mcp.md)
 
 ```bash
 brew install Josepavese/nido/nido
