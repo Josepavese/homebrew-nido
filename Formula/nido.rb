@@ -1,26 +1,26 @@
 class Nido < Formula
   desc "Local VM manager for AI agents, with CLI, TUI and native MCP"
   homepage "https://github.com/Josepavese/nido"
-  version "4.8.7"
+  version "4.9.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/Josepavese/nido/releases/download/v#{version}/nido-darwin-arm64.tar.gz"
-      sha256 "b25b349b8c520f5a915ffb85a0db48c6f2d05562dce81478282ee7e82f0177da"
+      sha256 "57a4984a7303bf5b9c6c70cde603ca6d30f50c9ddfcaa9a16011e62e17feff02"
     else
       url "https://github.com/Josepavese/nido/releases/download/v#{version}/nido-darwin-amd64.tar.gz"
-      sha256 "807adc391039372355e0fd8165c55030212b39cbbb2d18b4d46b84732d4e0800"
+      sha256 "9eb461390306ab3a89b854fdf67ef67715bec43e9c767a7f8fb89bb486f196cd"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/Josepavese/nido/releases/download/v#{version}/nido-linux-arm64.tar.gz"
-      sha256 "306dc30a25b0f1fef7fef4a518a25c0cbc421fd3d7a50f66a9bbed6e68a6d7bb"
+      sha256 "ffe65860a28ed6a0943433c1d35773f9ea53fb0bc5904ec28f9b32613df37f96"
     else
       url "https://github.com/Josepavese/nido/releases/download/v#{version}/nido-linux-amd64.tar.gz"
-      sha256 "dbdeab034942bbda5b2d2e7e848393e2495abbaff11bce7b5dde88606fc2b1b5"
+      sha256 "9f83e1f6dcafd66f78678a84f59c56453df397542f77dcaa85baf1c638cf51ef"
     end
   end
 
